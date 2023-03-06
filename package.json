@@ -6,6 +6,11 @@
   "scripts": {
     "test": "npm run test"
   },
+  "keywords": [
+    "utility",
+    "functional",
+    "helper"
+  ],
   "author": "Joseph Perez <hello@p14.dev> (https://p14.dev)",
   "license": "ISC"
 }
