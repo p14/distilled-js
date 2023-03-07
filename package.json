@@ -1,16 +1,16 @@
 {
-  "name": "p14",
-  "version": "1.0.2",
+  "name": "distilled-js",
+  "version": "1.0.0",
   "description": "JS helper functions and code snippets for quality of life in the development process.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+
   },
   "keywords": [
     "utility",
     "functional",
     "helper"
   ],
-  "author": "Joseph Perez <hello@p14.dev> (https://p14.dev)",
+  "author": "Joseph Perez",
   "license": "ISC"
 }
