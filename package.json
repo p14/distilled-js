@@ -1,12 +1,23 @@
 {
-  "name": "maetheboxer",
+  "name": "distilled-js",
+  "version": "0.0.1",
   "description": "JavaScript / TypeScript helper functions and code snippets for quality of life in the development process.",
-  "author": "Joseph Perez",
+  "author": "Joseph Perez <hello@p14.dev>",
   "license": "MIT",
-  "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/p14/distilled-js.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "distilled",
+    "helper",
+    "functional",
+    "typescript",
+    "javascript"
+  ],
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
     "lint": "tsc"
