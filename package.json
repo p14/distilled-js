@@ -1,16 +1,18 @@
 {
-  "name": "distilled-js",
-  "version": "1.0.0",
-  "description": "JS helper functions and code snippets for quality of life in the development process.",
-  "main": "index.js",
-  "scripts": {
-
-  },
-  "keywords": [
-    "utility",
-    "functional",
-    "helper"
-  ],
+  "name": "maetheboxer",
+  "description": "JavaScript / TypeScript helper functions and code snippets for quality of life in the development process.",
   "author": "Joseph Perez",
-  "license": "ISC"
+  "license": "MIT",
+  "version": "0.0.4",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
 }
