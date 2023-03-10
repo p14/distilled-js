@@ -13,3 +13,11 @@ export function shuffle(array: any[]): any[] {
 
   return array;
 };
+
+export function unique(array: any[]): any[] {
+  return array.filter((v, i, a) => a.indexOf(v) === i);
+};
+
+export function uniqueObjectsByProperty(array: any[], property: string): any[] {
+  return array.filter((obj, i) => array.findIndex((a) => a[property] === obj[property]) === i);
+};
