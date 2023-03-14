@@ -2,6 +2,6 @@
 // export * from './src/MockData';
 // export * from './src/StringFunctions';
 
-export { shuffle } from './src/ArrayFunctions';
+export { shuffle, unique, uniqueObjectsByProperty } from './src/ArrayFunctions';
 export { mockStringArray } from './src/MockData';
-export { capitalize } from './src/StringFunctions';
+export { capitalize, capitalizeEachWord } from './src/StringFunctions';
