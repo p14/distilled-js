@@ -1,6 +1,6 @@
 {
   "name": "distilled-js",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "JavaScript / TypeScript helper functions and code snippets for quality of life in the development process.",
   "author": "Joseph Perez <hello@p14.dev>",
   "license": "MIT",
